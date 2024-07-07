@@ -245,7 +245,7 @@
 /* ------------------------------------------------------ Responsive Code ------------------------------------------------------ */
 
 
-@media screen and (min-width: 465px) and (max-width:599px) {
+@media screen and (min-width: 545px) and (max-width:599px) {
 
     .main-wrapper #slider figure img {
         height: 240px;
