@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test Form</title>
+    <link rel="stylesheet" href="../css/style-form.css">
+</head>
+
+<body>
+
+    <form class="wrapper-form-page">
+        <div class="form-page">
+
+            <div class="form-content">
+
+                <div class="form-layout">
+                    <ol>
+
+                        <div class="form-layout-div" id="contact-details">
+                            <li>Your Contact Details</li>
+                            <span>
+                                <input type="text" name="fullName" class="full-name" placeholder="Full Name" autofocus>
+                                <input type="text" name="patientId" class="patient-id"
+                                    placeholder="Patient Id is exists" autofocus>
+                            </span>
+
+                            <span>
+                                <input type="text" name="contactNumber" class="contact-number"
+                                    placeholder="Contact Number" autofocus>
+                                <input type="text" name="emailId" class="email-id" placeholder="Email-Id" autofocus>
+                            </span>
+                        </div>
+
+                        <div class="form-layout-div" id="address">
+                            <li>Address</li>
+                            <span>
+                                <input type="text" name="hNo" class="h-no" placeholder="H-No" autofocus>
+                                <input type="text" name="street" class="street" placeholder="Street" autofocus>
+                            </span>
+                            <span>
+                                <input type="text" name="area" class="area" placeholder="Area" autofocus>
+                            </span>
+                            <span>
+                                <label for="district">District</label>
+                                <select class="form-control-district" id="inputDistrict">
+                                    <option value="Choose">Choose</option>
+                                    <option value="Banglore">Banglore</option>
+                                    <option value="Chennai">Chennai</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Gurgaon">Gurgaon</option>
+                                    <option value="Hyderabad">Hyderabad</option>
+                                    <option value="Noida">Noida</option>
+                                    <option value="Pune">Pune</option>
+                                </select>
+                            </span>
+                        </div>
+
+                        <div class="form-layout-div" id="test-type">
+                            <li>Test Type</li>
+                            <p class="checkbox">[<b>Message:</b> Check atleast one box without fail]</p>
+                            <input type="checkbox" id="type" name="type1" value="CBC">
+                            <label for="type">CBC</label><br>
+                            <input type="checkbox" id="type" name="type2" value="Complete-Urine">
+                            <label for="type">Complete Urine</label><br>
+                            <input type="checkbox" id="type" name="type3" value="Lipid-Profile">
+                            <label for="type">Lipid Profile</label><br>
+                            <input type="checkbox" id="type" name="type4" value="Thyroid-Stimulating-Hormone">
+                            <label for="type">Thyroid Stimulating Hormone (TSH)</label><br>
+                            <input type="checkbox" id="type" name="type5" value="Glucose Test">
+                            <label for="type">Glucose Test</label><br>
+                        </div>
+
+                        <div class="form-layout-div" id="hard-copy">
+                            <li>Do you also want a hard copy of report?</li>
+                            <div class="hard-copy-div">
+                                <input type="radio" name="yes" value="Yes">Yes<br>
+                                <input type="radio" name="no" value="No">No<br>
+                            </div>
+                        </div>
+
+                        <div class="form-layout-div" id="date-time">
+                            <li>Your Comfortable Date and Time</li>
+                            <div id="date-div">
+                                <label for="date">Date- </label>
+                                <input type="date">
+                                <br>
+                            </div>
+                            <div id="time-div">
+                                <label for="time">Time- </label>
+                                <input type="time">
+                                <br>
+                            </div>
+                        </div>
+
+                    </ol>
+
+                </div>
+
+            </div>
+
+            <div class="form-image">
+                <img src="../../Images/Lab-Test/lab-test.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="form-buttons">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
