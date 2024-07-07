@@ -35,7 +35,7 @@
 
 .main-wrapper .navigation-bar .menu li {
     display: inline-block;
-    padding: 8px;
+    padding: 8px 12px 8px 12px;
 }
 
 .main-wrapper .navigation-bar .menu li:hover {
